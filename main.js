@@ -3,7 +3,7 @@ var lightboxPhotoset = [];
 var lightboxImages = document.getElementsByClassName('zetlightbox');
 
 function populateLightbox(img) {
-    lightboxImage = {
+    var lightboxImage = {
     
     "width" : img.naturalWidth,
     "height" : img.naturalHeight,

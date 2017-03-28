@@ -9,6 +9,7 @@ function populateLightbox(img) {
     "height" : img.naturalHeight,
     "low_res" : img.src,
     "high_res" : img.src,
+    //"caption" : img.title,
     
     };
     
